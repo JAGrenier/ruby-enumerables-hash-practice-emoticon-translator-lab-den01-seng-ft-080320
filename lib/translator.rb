@@ -14,7 +14,7 @@ def load_library(path)
     emoticon_hash["get_meaning"][emoticon_set.last] = english_word
   end
   emoticon_hash
-  binding.pry
+
 end
 
 def get_japanese_emoticon(path, emoticon)
@@ -33,4 +33,5 @@ def get_english_meaning(path, emoticon)
     result = "Sorry, that emoticon was not found"
   end
   result
+    binding.pry
 end
