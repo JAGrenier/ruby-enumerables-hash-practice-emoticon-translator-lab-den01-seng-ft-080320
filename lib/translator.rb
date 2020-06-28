@@ -2,7 +2,7 @@
 
 def load_library
   # code goes here
-  YAML.load("lib/emoticons.yml")
+  emoticons = YAML.load("lib/emoticons.yml")
 end
 
 
