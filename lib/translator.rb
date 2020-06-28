@@ -7,7 +7,7 @@ def load_library(file_path)
   emotions.each do |name, lanugages|
     eng_emoticon == langages[:english]
     translations = languages [:japanes]
-    return translation 
+    return translation
   end 
 end
 
