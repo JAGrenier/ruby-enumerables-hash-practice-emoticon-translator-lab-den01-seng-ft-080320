@@ -30,7 +30,7 @@ def get_japanese_emoticon(path, emoticon)
 end
 
 #result:
-get_japanese_emoticon(path, "=D")).to eq("(￣ー￣)
+get_japanese_emoticon(path, "=D")).to eq("(￣ー￣)"
 
 # get_english_meaning: returns the English meaning of the Japanese emoticon
 
