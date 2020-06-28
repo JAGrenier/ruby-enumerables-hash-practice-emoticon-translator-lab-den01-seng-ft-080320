@@ -5,12 +5,12 @@ require 'pry'
 def load_library(path)
   emoticon = {"get_meaning" => {},"get_emoticon" =>{}}
   YAML.load_file(path).each do |meaning, describe|
-  eng,jan = describe 
-  emoticons["get_meaning"][jan] = meaning 
-  emoticons["get_emoticon"][eng]= jan 
+  eng,jan = describe
+  emoticons["get_meaning"][jan] = meaning
+  emoticons["get_emoticon"][eng]= jan
   end
   emoticons
-end 
+end
 
 def get_japanese_emoticon(path, emoticon)
   emoticon_hash = load_library(path)
